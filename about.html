@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora&display=swap');
+        
+        .font-header {
+            font-family: 'Playfair Display', serif;
+        }
+        .font-body {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body class="bg-[#fdfaf5] font-body">
+    <!-- Navbar -->
+    <nav class="bg-white py-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex items-center space-x-4">
+                <img src="images/WhatsApp_Image_2024-09-12_at_11.53.56_e060429e-removebg-preview.png" alt="Ink Tales Logo" class="h-12">
+                <h1 class="text-3xl font-header text-[#4a4a8f]">Ink Tales</h1>
+            </div>
+            <!-- Adjusted padding-right to give more space between the buttons and right side -->
+            <ul class="flex space-x-8 text-lg pr-8">
+                <li><a href="index.html" class="text-[#4a4a8f] hover:text-[#3e3e73]">Home</a></li>
+                <li><a href="about.html" class="text-[#4a4a8f] hover:text-[#3e3e73]">About</a></li> 
+                <li><a href="contact.html" class="text-[#4a4a8f] hover:text-[#3e3e73]">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="py-16">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center">
+            <!-- Text Content -->
+            <div class="lg:w-1/2 text-left lg:pl-16">
+                <h1 class="text-5xl font-header text-[#4a4a8f] mb-8 text-center lg:text-left">About Ink Tales</h1>
+                <p class="text-xl text-gray-700 mb-6">
+                    Ink Tales was founded in 2024. At Ink Tales, we believe that stories have the power to change lives. We started this journey to create your fantisies into books you can enjoy. From editing and workshops to full publishing services, Ink Tales
+                    is here to bring your stories to life.
+                </p>
+            </div>
+
+            <!-- Image -->
+            <div class="lg:w-1/2 mt-12 lg:mt-0 lg:ml-12">
+                <img src="images/WhatsApp Image 2024-09-12 at 08.47.09_a62e07b4.jpg" alt="About Us Image" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

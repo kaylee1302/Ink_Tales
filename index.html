@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink Tales</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lora&display=swap');
+        
+        .font-header {
+            font-family: 'Playfair Display', serif;
+        }
+        .font-body {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body class="bg-[#fdfaf5] font-body">
+    <!-- Navbar -->
+    <nav class="bg-white py-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex items-center space-x-4">
+                <img src="images/WhatsApp_Image_2024-09-12_at_11.53.56_e060429e-removebg-preview.png" alt="Ink Tales Logo" class="h-12">
+                <h1 class="text-3xl font-header text-[#4a4a8f]">Ink Tales</h1>
+            </div>
+            <ul class="flex space-x-8 text-lg pr-8">
+                <li><a href="index.html" class="text-[#4a4a8f] hover:text-[#3e3e73]">Home</a></li>
+                <li><a href="about.html" class="text-[#4a4a8f] hover:text-[#3e3e73]">About</a></li> 
+                <li><a href="contact.html" class="text-[#4a4a8f] hover:text-[#3e3e73]">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-[#4a4a8f] to-[#34a0d5] text-white h-screen flex flex-col justify-center items-center">
+        <h1 class="text-6xl font-header">Discover Your Next Adventure</h1>
+        <p class="text-2xl mt-4 max-w-2xl text-center">At Ink Tales, we turn your ideas into books you can enjoy</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-header text-[#4a4a8f] mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-header text-[#4a4a8f] mb-4">Book Publishing</h3>
+                    <p class="text-gray-700">From manuscript to masterpiece, we help you bring your story to life.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-header text-[#4a4a8f] mb-4">Editing Services</h3>
+                    <p class="text-gray-700">Our editors ensure your narrative shines with clarity and elegance.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-header text-[#4a4a8f] mb-4">Storytelling Workshops</h3>
+                    <p class="text-gray-700">Join our workshops to hone your storytelling craft with industry experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-[#f1f4fa] py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-header text-[#4a4a8f] mb-12">What Our Authors Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <p class="text-gray-700 italic">"Ink Tales helped me turn my dream into a published book."</p>
+                    <h3 class="mt-4 font-semibold text-[#4a4a8f]">Sarah Williams</h3>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <p class="text-gray-700 italic">"The editorial team is top-notch. Highly recommend!"</p>
+                    <h3 class="mt-4 font-semibold text-[#4a4a8f]">James Thomas</h3>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <p class="text-gray-700 italic">"Their storytelling workshops were invaluable for my growth."</p>
+                    <h3 class="mt-4 font-semibold text-[#4a4a8f]">Emily Clarke</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
